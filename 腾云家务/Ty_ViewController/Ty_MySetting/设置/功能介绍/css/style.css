@@ -1,0 +1,219 @@
+@charset "utf-8";
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 不支持最大宽度，因此默认为 100% 宽度 */
+.ie6 img {
+	width:100%;
+}
+/* 移动设备布局: 480px 及更低。 */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+body {
+	margin:0;
+	padding:0;
+	margin: 0 auto;
+	font: normal 100% Helvetica, Arial, sans-serif;
+	border-color:#da251d;
+	font-family:"微软雅黑";
+	min-width: 320px;
+	background-color:#fff;
+}
+a img {
+	border:none
+}
+img { 
+	width: 100%; 
+}
+img { 
+	-ms-interpolation-mode: bicubic; 
+}
+
+.top{
+	width:100%;
+	margin:2em 0 0 0;
+}
+.top font{
+	font-size:1em;
+	font-weight:bold;
+	color:#000;	
+}
+.main{
+	width:100%;
+	margin:2em 0;
+}
+.main font{
+	font-size:1em;
+	color:#000;	
+}
+.main .img{
+	width:80%;
+	margin:0 auto;
+}
+.main_01{
+	width:100%;
+	margin:1em 0;
+}
+.main_01 font{
+	font-size:1em;
+	color:#000;	
+}
+.main_01 .img{
+	width:80%;
+	margin:0 auto;
+}
+/* 平板电脑布局: 481px 至 768px。样式继承自: 移动设备布局。 */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+body {
+	margin:0;
+	padding:0;
+	margin: 0 auto;
+	font: normal 100% Helvetica, Arial, sans-serif;
+	border-color:#da251d;
+	font-family:"微软雅黑";
+	min-width: 320px;
+	background-color:#fff;
+}
+a img {
+	border:none
+}
+img { 
+	width: 100%; 
+}
+img { 
+	-ms-interpolation-mode: bicubic; 
+}
+
+.top{
+	width:100%;
+	margin:2em 0 0 0;
+}
+.top font{
+	font-size:1.2em;
+	font-weight:bold;
+	color:#000;	
+}
+.main{
+	width:100%;
+	margin:3em 0;
+}
+.main font{
+	font-size:1.2em;
+	color:#000;	
+}
+.main .img{
+	width:60%;
+	margin:0 auto;
+}
+.main_01{
+	width:100%;
+	margin:1.5em 0;
+}
+.main_01 font{
+	font-size:1.2em;
+	color:#000;	
+}
+.main_01 .img{
+	width:60%;
+	margin:0 auto;
+}
+
+}
+
+/* 桌面电脑布局: 769px 至最高 1232px。样式继承自: 移动设备布局和平板电脑布局。 */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+body {
+	margin:0;
+	padding:0;
+	margin: 0 auto;
+	font: normal 100% Helvetica, Arial, sans-serif;
+	border-color:#da251d;
+	font-family:"微软雅黑";
+	min-width: 320px;
+	background-color:#fff;
+}
+a img {
+	border:none
+}
+img { 
+	width: 100%; 
+}
+img { 
+	-ms-interpolation-mode: bicubic; 
+}
+
+.top{
+	width:100%;
+	margin:2em 0 0 0;
+}
+.top font{
+	font-size:1.2em;
+	font-weight:bold;
+	color:#000;	
+}
+.main{
+	width:100%;
+	margin:3em 0;
+}
+.main font{
+	font-size:1.2em;
+	color:#000;	
+}
+.main .img{
+	width:45%;
+	margin:0 auto;
+}
+.main_01{
+	width:100%;
+	margin:1.5em 0;
+}
+.main_01 font{
+	font-size:1.2em;
+	color:#000;	
+}
+.main_01 .img{
+	width:45%;
+	margin:0 auto;
+}
+}

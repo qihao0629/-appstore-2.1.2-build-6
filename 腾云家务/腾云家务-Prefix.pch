@@ -1,0 +1,46 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "TY_BaseBusine.h"
+    #import "TYNotificationTool.h"
+    #import "Ty_BaseDefine.h"
+    #import "Ty_SettingDefine.h"
+    #import "TYNavigationTool.h"
+    #import "Ty_News_Busine_Jpush.h"
+    #import "TYBaseView.h"
+    #import "Ty_MySetting_Define.h"//我的界面宏定义
+    #import "MJPhotoBrowser.h"
+    #import "MJPhoto.h"
+    #import "UIImageView+WebCache.h"
+    #import "UIButton+WebCache.h"
+    #import "Ty_NetRequestService.h"
+    #import "FMDB.h"
+    #import "Ty_BaseNetDefine.h"
+    #import "Ty_NetDefine_MySetting.h"//我的界面网络宏
+    #import "Guid.h"
+    #import "Ty_NetDefine_MySetting.h"//我的界面网络宏
+    #import "Ty_OrderNetDefine.h"//预约相关的网络宏定义
+    #import "Ty_DatabaseDefine_Order.h"//预约相关的数据宏定义
+    #import "Ty_NetDefine_Huodong.h"//我的活动网络宏
+    #import "Ty_NetDefine_MySetting.h"//我的界面网络宏
+    #import "Ty_DatabaseDefine_AttentionAndFans.h"//我的关注粉丝数据库表
+    #import "Ty_Message_Define.h" //信息部分宏定义
+    #import "Ty_DatabaseDefine_Message.h" //信息数据库相关表
+    #import "Ty_NetDefine_Message.h"
+    #import "Ty_NetDefine_Map.h"//地图网络宏
+    #import "Toast+UIView.h"
+    #import "Ty_HomeDefine.h"
+    #import "Ty_PhoneBusine.h"
+#endif
